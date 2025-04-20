@@ -1,0 +1,93 @@
+/**  Mixins */
+/*------------------------------------*\
+    breakpoint vars
+\*------------------------------------*/
+/*------------------------------------*\
+    breakpoint mixin
+\*------------------------------------*/
+/** Break desktop first**/
+/** Global **/
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #E6E7E8;
+  --blue: #014a81;
+  --primary: #004a80;
+  --second: #8ac042;
+  --text-body: #333;
+}
+
+.certificate-list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#wpadminbar {
+  position: fixed;
+  top: 0;
+}
+
+/** Partials **/
+#brx-header.show-nav .header-inner, #brx-header.scrolling .header-inner {
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+#brx-header.show-nav .header-inner .brx-nav-nested-items > li > a,
+#brx-header.show-nav .header-inner .wpml-ls .wpml-ls-item a.wpml-ls-item-toggle,
+#brx-header.show-nav .header-inner .brxa-wrap, #brx-header.scrolling .header-inner .brx-nav-nested-items > li > a,
+#brx-header.scrolling .header-inner .wpml-ls .wpml-ls-item a.wpml-ls-item-toggle,
+#brx-header.scrolling .header-inner .brxa-wrap {
+  color: var(--text-body);
+}
+#brx-header.show-nav .nav-mobile {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+#brx-header .brxe-toggle {
+  outline: none;
+}
+#brx-header .brxe-toggle .brxa-inner::before, #brx-header .brxe-toggle .brxa-inner::after {
+  transition: all 0.2s;
+}
+
+.wpml-ls {
+  width: auto;
+}
+.wpml-ls .wpml-ls-item a.wpml-ls-item-toggle {
+  background: none;
+  border: 0;
+  color: #fff;
+}
+
+.certificate-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.certificate-list p {
+  display: none;
+}
+.certificate-list div {
+  margin: 0 !important;
+}
+
+.brxe-content-more__body {
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.brxe-content-more__button--more {
+  display: block;
+}
+.brxe-content-more__button--less {
+  display: none;
+}
+.brxe-content-more.show .brxe-content-more__button--more {
+  display: none;
+}
+.brxe-content-more.show .brxe-content-more__button--less {
+  display: block;
+}
+
+/*# sourceMappingURL=styles.css.map */

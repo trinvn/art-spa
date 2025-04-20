@@ -1,0 +1,17 @@
+.certificate-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    p {
+        display: none;
+    }
+
+    ul {
+        @extend %reset-list;
+    }
+
+    div {
+        margin: 0 !important;
+    }
+}

@@ -1,0 +1,30 @@
+.brxe-content-more {
+    &__body {
+        overflow: hidden;
+        transition: all 0.3s;
+    }
+
+    &__button {
+        &--more {
+            display: block;
+        }
+
+        &--less {
+            display: none;
+        }
+    }
+
+    &.show {
+        .brxe-content-more {       
+            &__button {
+                &--more {
+                    display: none;
+                }
+
+                &--less {
+                    display: block;
+                }
+            }
+        }
+    }
+}
