@@ -1,0 +1,36 @@
+.form {
+    &__row {
+        margin-bottom: 20px;
+
+        input,
+        textarea,
+        select {
+            border: 1px solid #ddd;
+            border-radius: 0;
+            outline: none !important;
+            min-height: 52px;
+            padding: 5px 20px;
+        }
+    }
+
+    &__submit {
+
+        button,
+        input {
+            color: var(--white);
+            background: var(--primary);
+            padding: 16px 52px;
+            border: 0;
+
+            &:hover {
+                background: #8bc14e;
+            }
+        }
+    }
+}
+
+.map-contact {
+    iframe {
+        height: 230px;
+    }
+}

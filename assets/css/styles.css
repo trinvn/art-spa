@@ -12,7 +12,7 @@
   --black: #000000;
   --gray: #E6E7E8;
   --blue: #014a81;
-  --primary: #004a80;
+  --primary: #78aa3d;
   --second: #8ac042;
   --text-body: #333;
 }
@@ -133,6 +133,34 @@
 .brxe-post-content h6 {
   font-size: 16px;
   margin-block: 20px 10px;
+}
+
+.form__row {
+  margin-bottom: 20px;
+}
+.form__row input,
+.form__row textarea,
+.form__row select {
+  border: 1px solid #ddd;
+  border-radius: 0;
+  outline: none !important;
+  min-height: 52px;
+  padding: 5px 20px;
+}
+.form__submit button,
+.form__submit input {
+  color: var(--white);
+  background: var(--primary);
+  padding: 16px 52px;
+  border: 0;
+}
+.form__submit button:hover,
+.form__submit input:hover {
+  background: #8bc14e;
+}
+
+.map-contact iframe {
+  height: 230px;
 }
 
 /*# sourceMappingURL=styles.css.map */
