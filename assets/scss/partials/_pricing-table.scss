@@ -1,0 +1,12 @@
+.pricing-table {
+    display: flex !important;
+    flex-direction: column;
+
+    .bricks-button {
+        padding: 10px 25px;
+    }
+
+    .pricing-table-footer {
+        margin-top: auto;
+    }
+}

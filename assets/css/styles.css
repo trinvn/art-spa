@@ -163,4 +163,28 @@
   height: 230px;
 }
 
+.pricing-table {
+  display: flex !important;
+  flex-direction: column;
+}
+.pricing-table .bricks-button {
+  padding: 10px 25px;
+}
+.pricing-table .pricing-table-footer {
+  margin-top: auto;
+}
+
+.service-list .brxe-list .content {
+  display: inline-flex;
+  white-space: nowrap;
+}
+.service-list .brxe-list .content .title {
+  margin: 0;
+}
+.service-list .brxe-list .content .separator {
+  width: 7px;
+  margin-left: 10px;
+  border-top: 2px solid;
+}
+
 /*# sourceMappingURL=styles.css.map */

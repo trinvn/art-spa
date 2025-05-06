@@ -32,7 +32,7 @@ class Element_Content_More extends \Bricks\Element
     $this->controls['content'] = [
       'tab' => 'content',
       'label' => esc_html__('Content', 'bricks'),
-      'type' => 'textarea',
+      'type' => 'editor',
       // 'readonly' => true, // Default: false
       'rows' => 10, // Default: 5
       'spellcheck' => true, // Default: false
